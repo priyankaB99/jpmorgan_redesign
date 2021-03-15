@@ -1,0 +1,105 @@
+/* nav */
+nav {
+  padding: 20px 60px;  
+  height: 70px;
+}
+#navbarNav {
+    margin-top: 3px;
+}
+#nav-links {
+    margin: 0 auto;
+}
+.navbar-brand-box {
+    width: 500px;
+}
+@media (max-width:990px) {
+    .navbar-brand-box {
+        width: 100%;
+    }
+    .navbar-toggler {
+        float: right;
+    }
+}
+#jpmc-logo {
+    width: 225px;
+}
+
+/* banner */
+.banner {
+    width: 100%;
+}
+.banner-overlay {
+    position: absolute;
+    left: 100px;
+    top: 175px;
+    width: 300px;
+    height: 320px;
+    border-radius: 3px;
+    padding: 50px;
+    opacity: .80;
+}
+h3 {
+    opacity: 1;
+}
+.banner-overlay hr {
+    height: 4px !important;
+    width: 50px;
+    opacity: 1;
+    margin-bottom: 80px;
+}
+
+/* main content */
+.reports-section {
+    padding: 50px 0;
+    background-color: rgb(240, 240, 240);
+}
+.report-box {
+    padding: 20px;
+    height: 190px;
+}
+.report-pic {
+    width: 100%;
+}
+.report-pic2 {
+    height: 100%;
+    width: 50%;
+}
+
+.latest-stories {
+    padding: 50px 70px;
+}
+.latest-stories h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+.latest-stories h2 span { 
+     background:#fff; 
+     padding:0 50px; 
+}
+.stories {
+    padding: 50px 20px;
+}
+.story {
+    background-color: rgb(240, 240, 240);
+}
+.story-side-box {
+    padding: 20px;
+}
+.story-box {
+    padding-left: 20px;
+    width: 45%;
+    display: inline-block;
+}
+.stories2 {
+    padding-top: 50px;
+}
+.full-length {
+    height: 100%;
+}
+.row button {
+    margin: 50px auto;
+    width: unset;
+}
