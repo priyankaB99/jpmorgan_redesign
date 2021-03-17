@@ -49,6 +49,9 @@ h3 {
 }
 
 /* main content */
+#main-content {
+    padding-bottom: 50px;
+}
 .reports-section {
     padding: 50px 0;
     background-color: rgb(240, 240, 240);
@@ -67,8 +70,9 @@ h3 {
 
 .latest-stories {
     padding: 50px 70px;
+    padding-bottom: 0;
 }
-.latest-stories h2 {
+.latest-stories > h2 {
     width: 100%; 
     text-align: center; 
     border-bottom: 1px solid #000; 
@@ -81,6 +85,7 @@ h3 {
 }
 .stories {
     padding: 50px 20px;
+    padding-bottom: 0;
 }
 .story {
     background-color: rgb(240, 240, 240);
@@ -102,4 +107,40 @@ h3 {
 .row button {
     margin: 50px auto;
     width: unset;
+}
+
+/* banner2 */
+.at-a-glance {
+    padding-top: 75px;
+    position: relative;
+}
+.banner-overlay2 {
+    position: absolute;
+    left: 450px;
+    top: 15px;
+    width: 370px;
+    height: 485px;
+    border-radius: 3px;
+    padding: 50px;
+    text-align: center;
+    color: rgb(236, 236, 236);
+    background-color: rgb(26, 36, 78);
+}
+.banner-overlay2 hr {
+    height: 4px !important;
+    width: 25px;
+    opacity: 1;
+    margin: 20px auto;
+}
+.left-text {
+    text-align: left;
+}
+ul {
+    list-style-type: circle;
+}
+ul li {
+    margin-left: -2px;
+}
+.top-padding {
+    padding-top: 50px;
 }
