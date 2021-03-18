@@ -239,7 +239,7 @@ ul li {
     margin: 20px 0;
 }
 .text-block {
-    margin: 50px 100px;
+    margin: 50px 225px;
     text-align: center;
 }
 @media (max-width:992px) {
@@ -298,4 +298,5 @@ footer {
 }
 .footer-links {
     margin-bottom: 50px;
+    text-decoration: underline;
 }
