@@ -1,3 +1,7 @@
+a {
+    color: unset !important;
+}
+
 /* nav */
 nav {
   padding: 20px 60px;  
@@ -29,6 +33,9 @@ nav {
     }
     .navbar-toggler {
         float: right;
+    }
+    nav {
+        padding: unset;
     }
 }
 
@@ -91,6 +98,11 @@ h3 {
         height: max-content;
     }
 }
+@media (max-width:768px) {
+    .report {
+        margin: 20px 0;
+    }
+}
 
 .latest-stories {
     padding: 50px 70px;
@@ -121,6 +133,7 @@ h3 {
     padding-left: 20px;
     width: 45%;
     display: inline-block;
+    vertical-align: middle;
 }
 .stories2 {
     padding-top: 50px;
@@ -128,10 +141,34 @@ h3 {
 .full-length {
     height: 100%;
 }
+.hidden {
+    display: none;
+}
 .row button {
     margin: 50px auto;
     width: unset;
 }
+@media (max-width:992px) {
+    .latest-stories {
+        padding: 50px 10px;
+        padding-bottom: 0;
+    }
+    .stories {
+        padding: 10px;
+        padding-bottom: 0;
+    }
+    .full-length {
+        margin-top: 50px;
+        height: unset;
+    }
+    .hidden {
+        display: block;
+    }
+    .large {
+        display: none;
+    }
+}
+
 
 /* banner2 */
 .at-a-glance {
@@ -171,6 +208,19 @@ ul li {
 .bottom-padding {
     padding-bottom: 50px;
 }
+@media (max-width:1188px) {
+    .hide {
+        display: none;
+    }
+    .banner-overlay2 {
+        position: unset;
+        margin: 0 auto;
+    }
+    .at-a-glance {
+        padding: 20px 0;
+    }
+}
+
 
 .impact-box {
     padding: 50px;
@@ -191,6 +241,16 @@ ul li {
 .text-block {
     margin: 50px 100px;
     text-align: center;
+}
+@media (max-width:992px) {
+    .impact-box {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:768px) {
+    .text-block {
+        margin: 50px 20px;
+    }
 }
 
 /* banner3 */
@@ -213,6 +273,20 @@ ul li {
     width: 50px;
     opacity: 1;
     margin: 20px 0;
+}
+@media (max-width:1188px) {
+    .hide {
+        display: none;
+    }
+    .banner-overlay3 {
+        position: unset;
+        margin: 0 auto;
+        width: 370px;
+    }
+    .racial-gap {
+        padding: unset;
+        padding-top: 40px;
+    }
 }
 
 /* footer */
