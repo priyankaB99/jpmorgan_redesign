@@ -1,6 +1,9 @@
 a {
     color: unset !important;
 }
+body {
+    overflow-x: hidden;
+}
 
 /* nav */
 nav {
@@ -245,6 +248,9 @@ ul li {
 .text-block2 {
     margin: 80px 225px;
     text-align: center;
+}
+.text-block2 button {
+    margin: 0 auto;
 }
 @media (max-width:992px) {
     .impact-box {
