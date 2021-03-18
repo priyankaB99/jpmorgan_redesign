@@ -6,22 +6,30 @@ nav {
 #navbarNav {
     margin-top: 3px;
 }
+.navbar-brand {
+    margin-right: 0 !important;
+}
 #nav-links {
     margin: 0 auto;
 }
 .navbar-brand-box {
     width: 500px;
 }
-@media (max-width:990px) {
+.jpmc-logo {
+    width: 225px;
+}
+@media (max-width:1215px) {
+    .navbar-brand-box {
+        width: unset;
+    }
+}
+@media (max-width:992px) {
     .navbar-brand-box {
         width: 100%;
     }
     .navbar-toggler {
         float: right;
     }
-}
-#jpmc-logo {
-    width: 225px;
 }
 
 /* banner */
@@ -37,6 +45,7 @@ nav {
     border-radius: 3px;
     padding: 50px;
     opacity: .80;
+    background-color: rgb(240, 240, 240);
 }
 h3 {
     opacity: 1;
@@ -46,6 +55,15 @@ h3 {
     width: 50px;
     opacity: 1;
     margin-bottom: 80px;
+}
+@media (max-width:992px) {
+    .banner-overlay {
+        height: max-content;
+        margin: 20px auto;
+        position: unset;
+        opacity: 1;
+        width: 400px;
+    }
 }
 
 /* main content */
@@ -66,6 +84,12 @@ h3 {
 .report-pic2 {
     height: 100%;
     width: 50%;
+}
+@media (max-width:1188px) {
+    .report-box {
+        padding: 20px;
+        height: max-content;
+    }
 }
 
 .latest-stories {
@@ -111,12 +135,12 @@ h3 {
 
 /* banner2 */
 .at-a-glance {
-    padding-top: 75px;
+    padding: 75px 0;
     position: relative;
 }
 .banner-overlay2 {
     position: absolute;
-    left: 450px;
+    left: 445px;
     top: 15px;
     width: 370px;
     height: 485px;
@@ -124,11 +148,11 @@ h3 {
     padding: 50px;
     text-align: center;
     color: rgb(236, 236, 236);
-    background-color: rgb(26, 36, 78);
+    background-color: rgb(27, 42, 99);
 }
 .banner-overlay2 hr {
     height: 4px !important;
-    width: 25px;
+    width: 50px;
     opacity: 1;
     margin: 20px auto;
 }
@@ -143,4 +167,61 @@ ul li {
 }
 .top-padding {
     padding-top: 50px;
+}
+.bottom-padding {
+    padding-bottom: 50px;
+}
+
+.impact-box {
+    padding: 50px;
+    background-color: rgb(27, 42, 99);
+    height: 350px;
+    color: rgb(236, 236, 236);
+}
+.our-impact .gray {
+    color: black;
+    background-color: rgb(240, 240, 240);
+}
+.our-impact hr {
+    height: 4px !important;
+    width: 50px;
+    opacity: 1;
+    margin: 20px 0;
+}
+.text-block {
+    margin: 50px 100px;
+    text-align: center;
+}
+
+/* banner3 */
+.racial-gap {
+    padding: 50px 0;
+    position: relative;
+}
+.banner-overlay3 {
+    position: absolute;
+    left: 150px;
+    top: 100px;
+    width: 350px;
+    height: 375px;
+    border-radius: 3px;
+    padding: 50px;
+    background-color: rgb(240, 240, 240);
+}
+.banner-overlay3 hr {
+    height: 4px !important;
+    width: 50px;
+    opacity: 1;
+    margin: 20px 0;
+}
+
+/* footer */
+footer {
+    padding: 50px;
+    background-color: rgb(46, 46, 46);
+    color:rgb(236, 236, 236);
+    text-align: center;
+}
+.footer-links {
+    margin-bottom: 50px;
 }
