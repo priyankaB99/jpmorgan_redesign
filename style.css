@@ -242,6 +242,10 @@ ul li {
     margin: 50px 225px;
     text-align: center;
 }
+.text-block2 {
+    margin: 80px 225px;
+    text-align: center;
+}
 @media (max-width:992px) {
     .impact-box {
         margin-bottom: 20px;
@@ -250,6 +254,9 @@ ul li {
 @media (max-width:768px) {
     .text-block {
         margin: 50px 20px;
+    }
+    .text-block2 {
+        margin: 80px 20px;
     }
 }
 
